@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Meal Api</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <h1 class="text-center mt-4 mb-4 text-success">Seach Meal Entering Name</h1>
+    <div id="show-card-details" class="w-50 mx-auto">
+
+    </div>
+
+    <!-- input field -->
+    <div class="input-group mb-4 w-50 mx-auto">
+        <input id="input-meal" type="text" class="form-control" placeholder="Enter name of meal"
+            aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button onclick="showMeal()" class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+    </div>
+
+    <h2 id="nothing" class="text-center">
+        <p id="message" class="text-center text-danger">
+            something went wrong
+        </p>
+    </h2>
+    <!-- Card show -->
+    <div id="card-show" class="row row-cols-1 row-cols-md-3 g-4">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <!-- <script src="js/meal-async.js"></script> -->
+    <script src="js/meal.js"></script>
+
+</body>
+
+</html>
